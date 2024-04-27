@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome To My Blog</title>
     <style>
+        .button {
+        position: absolute;
+        top:25%;
+        background-color:#7abec8;
+        color: #fff;
+        border:none;
+        box-shadow: 0px 0px 2px 2px rgb(172, 224, 232);
+        padding:10px;
+        min-height:10px; 
+        min-width: 30px;
+    }
+    .button:hover {
+      background-color:#afeaf2;
+      transition: 0.7s;
+  }
             .small {text-indent: 50px;}
             .big {
                 text-indent:60%;
@@ -18,18 +33,17 @@
         .white{background-color: rgb(240, 251, 255);}
         .white2{
             text-indent:35%;
-            background-color: rgb(240, 251, 255);
         }
         
         .container {
-            background-color: rgb(240, 251, 255);
+            background-color: rgb(240, 251, 255,0.7);
             max-width: 1600px;
             margin: auto;
             padding: 20px;
         }
         .container2 {
-            background-color: rgb(240, 251, 255);
-            max-width: 800px;
+            background-color: rgb(240, 251, 255,0.5);
+            max-width: 1600px;
             margin: auto;
             padding: 20px;
         }
@@ -58,34 +72,36 @@
     <!-- 블로그 포스트의 제목 -->
     <h1 class="white2" style="font-size: 50px;text-decoration:wavy; font-family:fantasy;">Welcome to My Blog</h1>
     <!-- 부제목 또는 날짜를 포함할 수 있습니다 -->
-    <h2 class="big" style="font-size: 20px; font-family: cursive;text-decoration:underline;">2024-4-27</h2>
+    <h2 class="big" style="font-size: 20px; font-family:fantasy;text-decoration:underline;">2024-4-27</h2>
  
-        <button type="button" onclick="location.href='https://youtu.be/gGfFoIDXnS8?feature=shared' ">My favorite song</button>
+        <button type="button" class="button" class="hover" onclick="location.href='https://youtu.be/gGfFoIDXnS8?feature=shared' ">My favorite song</button>
 </div>
 <body>
 
-        <p>
-            <p>
-                <img src="C:\Users\qndqn\OneDrive\바탕 화면\OSmid\image\profile2.jpeg"width="300">
-            </p>
-            <strong>
-                <p style="font-size: 20px;text-decoration:wavy;">nickname: AoJoWo</p>
-            </p>
-
-
-
-        <div class=".container2">
-        <!-- 본문 내용 시작 -->
-        <p class="white">제 닉네임은 AoJoWo라고 입니다. 이름의 이니셜에서 따온 내용입니다.</p>
-        
-        <p class="white">중간고사 과제인 자기소개 웹페이지를 만들기 위해 글을 작성하고 있습니다다</p>
-        
-        <!-- 추가 섹션 또는 내용 -->
-        <p class="white">이는 일곱번째 커밋으로, 배경 이미지 삽입, 프로필 편집 버전입니다.</p>
-        
-        <!-- 결론 또는 요약 -->
-        <p class="white">블로그를 시작함으로써 웹 개발 여정에 첫발을 내디뎠습니다. 나만의 웹사이트를 만들어 나가는 과정이 기대됩니다!</p>
-        </div>
 
 </body>
+
+<p>
+    <p>
+        <img src="C:\Users\qndqn\OneDrive\바탕 화면\OSmid\image\profile2.jpeg"width="300">
+    </p>
+
+        <p style="font-size: 30px;text-decoration:wavy; font-family:fantasy; color: aliceblue;">nickname: AoJoWo</p>
+    </p>
+
+    <div class="container2">
+        <!-- 본문 내용 시작 -->
+        <p class="white2>제 닉네임은 AoJoWo라고 입니다. 이름의 이니셜에서 따온 내용입니다.</p>
+        
+        <p class="white2">중간고사 과제인 자기소개 웹페이지를 만들기 위해 글을 작성하고 있습니다다</p>
+        
+        <!-- 추가 섹션 또는 내용 -->
+        <p class="white2">이는 여덟번째 커밋으로, 버튼 디자인 및 효과, 배경 투명도 편집 버전입니다.</p>
+        
+        <!-- 결론 또는 요약 -->
+        <p class="white2">블로그를 시작함으로써 웹 개발 여정에 첫발을 내디뎠습니다. 나만의 웹사이트를 만들어 나가는 과정이 기대됩니다!</p>
+        </div>
+
+
+
 </html>
